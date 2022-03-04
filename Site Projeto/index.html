@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicongrafica.ico" type="image/x-icon">
+    <title>Fiducia Gráfica</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"> 
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script> <!-- imagem do carrinho de compras-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    
+</head>
+<body>
+    <!--Barra de Navegação/Interface principal-->
+    <nav class="navbar"> 
+        <div class="navbar__container">
+        <img src="graficalogo.png" alt="logo">  <a href="#inicio" id="navbar__logo"></a> 
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>  <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+       <ul class="navbar__menu">
+         <li class="navbar__item">
+          <a href="index.html" class="navbar__links" id="home-page">Inicio</a>
+          </li>
+      <li class="navbar__item">
+        <a href="#sobre" class="navbar__links" id="about-page">Sobre</a>
+         </li>
+            <li class="navbar__item">
+             <a href="servicos.html" class="navbar__links" id="services-page">Serviços</a>
+             </li>
+                <li class="navbar__btn">
+                    <a href="#sign-up" class="button" id="Sign Up-page">Sign Up</a>
+                 </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Interface principal -->
+    <div class="interface" id="home">
+        <div style="text-align: center;" class="interface__container">
+        <h1 class="interface__heading">Crie sua <span>Arte</span></h1>
+        <p class="interface__description">Possibilidades Ilimitadas</p>
+        <button class="main__btn"><a href="#">Explore as Opções</a></button>
+        </div>
+    </div>
+
+    <!-- Seção Sobre -->
+    <div class="about" id="sobre">
+        <div class="about__container">
+            <div class="about__img--container">
+                <div class="about__img--cartao"><i class="far fa-clone"></i></div>
+            </div>
+            <div class="about__content">
+            <h1>O que fazemos?</h1>
+            <h2>|Confiabilidade <br> |Qualidade <br> |Garantia </h2>
+            <p>A Fiducia Grafica está a mais de 4 anos no mercado atuando em mais de 10 países,<br>  
+                nosso principal compromisso e objetivo é trazer as soluções mais rápidas e <br> 
+                eficientes que o cliente precisa. </p>
+                <button class="about__btn"><a href="#">Saiba Mais</a></button>
+        </div>
+      </div>  
+    </div>
+
+    <!-- Seção Cadastro -->
+    <div class="about" id="sign-up">
+        <div class="about__container">
+            <div class="about__content">
+                <h1>Junte-se a Nós!</h1>
+                <h2>Cadastre-se Agora</h2>
+                <p>Veja como fazemos a diferença</p>
+                <button class="about__btn"><a href="#">Cadastre-se</a></button>
+                </div>
+                <div class="about__img--container">
+                <div class="about__img--cartao"><i class="fas fa-user-circle"></i></div>
+            </div>
+         </div>
+      </div>  
+ 
+      <!-- se der cagada exclui daqui pra baixo-->
+
+      <!-- ANIMATED CARD -->
+      <div class="container">
+        <div class="card">
+            <div class="cadernoBackground">
+                <div class="gradients">
+                    <div class="gradient second" color="blue"></div>
+                    <div class="gradient" color="red"></div>
+                    <div class="gradient" color="green"></div>
+                    <div class="gradient" color="black"></div>
+                </div>
+                <h1 class="nomeatras">note</h1>
+                <img src="graficalogo.png" class="logo">
+                <a href="#" class="share"><i class="fas fa-share-alt"></i></a> <!--fas fa-share-alt-->
+
+                <img src="starwarsazul.png" alt="" class="cad show" color="blue">
+                <img src="marvelvermelho.png" alt="" class="cad" color="red">
+                <img src="jurassicverde.png" alt="" class="cad" color="green">
+                <img src="joker.png" alt="" class="cad" color="black">
+
+            </div>
+            <div class="info">
+                <div class="cadernoName">
+                    <div>
+                        <h1 class="big">Cadernos em Promoção!</h1>
+                        <span class="new">new</span>
+                    </div>
+                    <h3 class="small">Exclusive notebooks</h3>
+                </div>
+                <div class="description">
+                    <h3 class="title">Info do produto</h3>
+                    <p class="text">Nossos cadernos são feitos sob medida e exclusivos com temas variados! Mostre seu lado fã.</p>
+                </div>
+                <div class="color-container">
+                    <h3 class="title">Color</h3>
+                    <div class="colors">
+                        <span class="color active" primary="#2175f5" color="blue"></span>
+                        <span class="color" primary="#f84848" color="red"></span>
+                        <span class="color" primary="#29b864" color="green"></span>
+                        <span class="color" primary="#444" color="black"></span>
+                    </div>
+                </div>
+                <div class="size-container">
+                    <h3 class="title">size</h3>
+                    <div class="sizes">
+                        <span class="size">smart</span>
+                        <span class="size">plus</span>
+                        <span class="size active">BG</span>
+                     </div>
+                </div>
+
+                <div class="buy-price">
+                    <a href="#" class="buy"><i class="fas fa-money-check"></i>Add to card</a> <!--era: fas fa-shopping-cart-->
+                    <div class="price">  
+                        <i class="fas fa-dollar-sign"></i>
+                        <h1>11.99</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer/rodapé -->
+    <footer>
+        <p class="text">Se cadastre para receber todas as ofertas e novidades!</p>
+        <form>
+            <input type="email" required>
+            <input type="submit" value="Sign Up">
+        </form>
+        <ul class="list-footer">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Termos</a></li>
+            <li><a href="#">Cadastro</a></li>
+        </ul>
+        <div class="social-media">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p class="copyrights">&copy; 2021 - Fiducia Gráfica | Todos os direitos reservados</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
